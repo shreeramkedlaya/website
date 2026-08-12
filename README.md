@@ -1,16 +1,49 @@
-# React + Vite
+# Shreeram Kedlaya | Application Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio repository! This is an ultra-premium, highly interactive web application designed to showcase my work as an Application Developer specializing in scalable React Native, Flutter, and SAP Backend ecosystems.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Ultra-Premium UI/UX**: Designed with a focus on modern aesthetics, utilizing glassmorphism, deep shadows, and an off-white minimal color palette.
+- **Advanced Animations**: Powered by Framer Motion, featuring kinetic text reveals, 3D tilt project cards, magnetic buttons, and a cinematic expanding splash screen.
+- **Buttery Smooth Scrolling**: Integrated with Lenis for a fluid, momentum-based scrolling experience.
+- **Custom Hardware Cursor**: A sleek, custom-built cursor that dynamically reacts to interactive elements across the page.
+- **Fully Responsive**: Flawlessly adapts to all screen sizes, from mobile devices to ultra-wide desktop monitors.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Scroll Engine**: Lenis
+- **Icons**: Lucide React
+- **Build Tool**: Vite
 
-## Expanding the Oxlint configuration
+## 🚀 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run this project on your local machine, follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/shreeramkedlaya/website.git
+```
+2. Navigate into the directory:
+```bash
+cd website
+```
+3. Install the dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## 🌐 Deployment
+
+This project is fully optimized and configured to be deployed seamlessly on **Vercel**. Simply import the repository into your Vercel dashboard and the build settings will configure automatically.
+
+---
+*Crafted with precision and a passion for pushing the boundaries of web development.*
