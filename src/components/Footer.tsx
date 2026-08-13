@@ -37,9 +37,9 @@ const Footer: React.FC = () => {
             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
               I'm always up for a chat, whether it's about scalable app architectures, the nuances of SAP backends, or your next big project. You can reach me at..
             </p>
-            <a href="mailto:kedlayashreeram@gmail.com" className="group inline-flex items-center text-lg font-bold text-indigo-600 hover:text-indigo-700 transition-colors tracking-wider relative">
-              <span className="mr-3 group-hover:translate-x-1 transition-transform">→</span> 
-              <span className="relative">
+            <a href="mailto:kedlayashreeram@gmail.com" className="group flex flex-wrap sm:inline-flex items-center text-base sm:text-lg font-bold text-indigo-600 hover:text-indigo-700 transition-colors tracking-wider relative justify-center">
+              <span className="mr-2 sm:mr-3 group-hover:translate-x-1 transition-transform shrink-0">→</span> 
+              <span className="relative break-all sm:break-normal text-center">
                 KEDLAYASHREERAM@GMAIL.COM
                 <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-indigo-600 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out" />
               </span>
@@ -59,25 +59,25 @@ const Footer: React.FC = () => {
             href="https://drive.google.com/file/d/1EOxiAT6schRCKG8VIb1EifmimmJAO76Q/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center px-6 py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
-            <FileText className="w-4 h-4 mr-2 text-indigo-600" /> Resume
+            <FileText className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">Resume</span>
           </a>
           <a
             href="https://linkedin.com/in/shreeramkedlaya"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center px-6 py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
-            <FaLinkedin className="w-4 h-4 mr-2 text-indigo-600" /> LinkedIn
+            <FaLinkedin className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">LinkedIn</span>
           </a>
           <a
             href="https://github.com/shreeramkedlaya"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center px-6 py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
-            <FaGithub className="w-4 h-4 mr-2 text-slate-800" /> GitHub
+            <FaGithub className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-slate-800" /> <span className="hidden sm:inline">GitHub</span>
           </a>
         </motion.div>
 

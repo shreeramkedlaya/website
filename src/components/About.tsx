@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Smartphone, Server, Trophy } from 'lucide-react';
+import { User, Smartphone, Server, Trophy, Database } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 
@@ -11,21 +11,21 @@ const About: React.FC = () => {
       desc: "React Native & Flutter expert, shipping directly to Google Play."
     },
     {
-      icon: <Server className="w-6 h-6 text-indigo-600" />,
+      icon: <Database className="w-6 h-6 text-indigo-600" />,
       title: "Enterprise SAP",
-      desc: "O2C Workflows, OData APIs, and robust ABAP integrations."
+      desc: "O2C Workflows, OData APIs, SAP Fiori, and ABAP integrations."
     },
     {
       icon: <Trophy className="w-6 h-6 text-indigo-600" />,
       title: "2+ Years Exp",
-      desc: "Proven track record of end-to-end architecture and deployment."
+      desc: "Proven track record of end-to-end development and deployment."
     }
   ];
 
   return (
     <section id="about" className="pt-12 pb-24 relative overflow-hidden">
       <div className="max-w-5xl mx-auto px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-20% 0px -20% 0px" }}
@@ -36,9 +36,9 @@ const About: React.FC = () => {
             <User className="w-8 h-8 text-indigo-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-text-primary tracking-tight leading-tight cursor-default">
-            Bridging the gap between{' '}
+            Building{' '}
             <motion.span whileHover={{ scale: 1.05, color: "#4f46e5", textShadow: "0px 0px 20px rgba(79, 70, 229, 0.4)" }} className="inline-block transition-colors duration-300">modern frontends</motion.span>{' '}
-            and <br className="hidden md:block"/>{' '}
+            on top of <br className="hidden md:block" />{' '}
             <motion.span whileHover={{ scale: 1.05, color: "#9333ea", textShadow: "0px 0px 20px rgba(147, 51, 234, 0.4)" }} className="inline-block transition-colors duration-300">robust SAP backends</motion.span>.
           </h2>
         </motion.div>

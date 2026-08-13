@@ -50,18 +50,18 @@ const Hero: React.FC = () => {
               href="https://drive.google.com/file/d/1EOxiAT6schRCKG8VIb1EifmimmJAO76Q/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-sm bg-text-primary text-white hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-300/50 transition-all duration-300 w-full"
+              className="inline-flex items-center justify-center p-4 sm:px-8 sm:py-3.5 rounded-full font-semibold text-sm bg-text-primary text-white hover:-translate-y-1 hover:shadow-xl hover:shadow-indigo-300/50 transition-all duration-300"
             >
-              <FileText className="w-4 h-4 mr-2" /> Resume
+              <FileText className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2" /> <span className="hidden sm:inline">Resume</span>
             </a>
           </MagneticButton>
           <MagneticButton>
             <a
               href="mailto:kedlayashreeram@gmail.com"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group w-full"
+              className="inline-flex items-center justify-center p-4 sm:px-8 sm:py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group"
             >
               <div className="absolute inset-0 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/30 transition-colors duration-300" />
-              <Mail className="w-4 h-4 mr-2 text-indigo-600" /> Email
+              <Mail className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">Email</span>
             </a>
           </MagneticButton>
           <MagneticButton>
@@ -69,10 +69,10 @@ const Hero: React.FC = () => {
               href="https://linkedin.com/in/shreeramkedlaya"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group w-full"
+              className="inline-flex items-center justify-center p-4 sm:px-8 sm:py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group"
             >
               <div className="absolute inset-0 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/30 transition-colors duration-300" />
-              <FaLinkedin className="w-4 h-4 mr-2 text-indigo-600" /> LinkedIn
+              <FaLinkedin className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">LinkedIn</span>
             </a>
           </MagneticButton>
           <MagneticButton>
@@ -80,10 +80,10 @@ const Hero: React.FC = () => {
               href="https://github.com/shreeramkedlaya"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group w-full"
+              className="inline-flex items-center justify-center p-4 sm:px-8 sm:py-3.5 rounded-full font-semibold text-sm bg-white/70 backdrop-blur-lg border border-white/50 text-text-primary hover:-translate-y-1 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300 relative group"
             >
-              <div className="absolute inset-0 rounded-full border border-slate-800/0 group-hover:border-slate-800/30 transition-colors duration-300" />
-              <FaGithub className="w-4 h-4 mr-2 text-slate-800" /> GitHub
+              <div className="absolute inset-0 rounded-full border border-indigo-500/0 group-hover:border-indigo-500/30 transition-colors duration-300" />
+              <FaGithub className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-slate-800" /> <span className="hidden sm:inline">GitHub</span>
             </a>
           </MagneticButton>
         </motion.div>

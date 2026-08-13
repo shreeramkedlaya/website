@@ -8,7 +8,7 @@ const SplashScreen: React.FC = () => {
       <motion.div
         initial={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 1.5, ease: "easeInOut" }}
+        transition={{ duration: 0.5, delay: 1.0, ease: "easeInOut" }}
         className="absolute inset-0 bg-[#fafafa] bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"
       />
 
@@ -53,16 +53,15 @@ const SplashScreen: React.FC = () => {
               transition: { duration: 0.8, ease: "easeOut" }
             }}
             exit={{
-              width: "150vw",
-              height: "150vh",
+              width: "100vw",
+              height: "100vh",
+              scale: 1,
               borderWidth: 0,
               backgroundColor: "rgba(79, 70, 229, 0)",
-              borderRadius: 100, // Increased radius during expansion to keep it smooth
-              opacity: 1,
+              borderRadius: 0,
               x: "-50%",
               y: "-50%",
-              scale: 1,
-              transition: { duration: 1.5, ease: "easeInOut" }
+              transition: { duration: 1.5, ease: [0.76, 0, 0.24, 1] }
             }}
             className="absolute top-1/2 left-1/2 z-10 shadow-2xl shadow-indigo-500/20 box-border"
           />

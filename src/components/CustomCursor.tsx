@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { useIsMobile } from '../hooks/useIsMobile';
 
 const CustomCursor: React.FC = () => {
   const cursorX = useMotionValue(-100);
@@ -42,8 +43,10 @@ const CustomCursor: React.FC = () => {
     };
   }, [cursorX, cursorY]);
 
-  // Don't render on mobile touch devices
-  if (typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches) {
+  const isMobile = useIsMobile();
+
+  // Don't render custom cursor on mobile screens
+  if (isMobile) {
     return null;
   }
 
