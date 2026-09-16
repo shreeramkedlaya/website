@@ -5,8 +5,10 @@ import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="py-20 text-center relative mt-10 overflow-hidden min-h-[600px] flex flex-col justify-center">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
+    <footer id="contact" className="py-20 text-center relative mt-10 overflow-hidden min-h-[600px] 
+    flex flex-col justify-center">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r 
+      from-transparent via-slate-300 to-transparent" />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -23,11 +25,12 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="w-full"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-text-primary tracking-tight cursor-default flex flex-wrap justify-center gap-[0.25em]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-text-primary tracking-tight
+            cursor-default flex flex-wrap justify-center gap-[0.25em]">
               {"Let's engineer the future.".split(" ").map((word, i) => (
-                <motion.span 
-                  key={i} 
-                  whileHover={{ y: -8, color: "#4f46e5", textShadow: "0px 0px 15px rgba(79, 70, 229, 0.4)" }} 
+                <motion.span
+                  key={i}
+                  whileHover={{ y: -8, color: "#4f46e5", textShadow: "0px 0px 15px rgba(79, 70, 229, 0.4)" }}
                   className="inline-block transition-colors duration-300"
                 >
                   {word}
@@ -35,13 +38,20 @@ const Footer: React.FC = () => {
               ))}
             </h2>
             <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-              I'm always up for a chat, whether it's about scalable app architectures, the nuances of SAP backends, or your next big project. You can reach me at..
+              I'm always up for a chat, whether it's about scalable app architectures, the nuances of SAP backends,
+              or your next big project. You can reach me at..
             </p>
-            <a href="mailto:kedlayashreeram@gmail.com" className="group flex flex-wrap sm:inline-flex items-center text-base sm:text-lg font-bold text-indigo-600 hover:text-indigo-700 transition-colors tracking-wider relative justify-center">
-              <span className="mr-2 sm:mr-3 group-hover:translate-x-1 transition-transform shrink-0">→</span> 
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=kedlayashreeram@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-wrap sm:inline-flex items-center text-base sm:text-lg font-bold
+                text-indigo-600 hover:text-indigo-700 transition-colors tracking-wider relative justify-center">
+              <span className="mr-2 sm:mr-3 group-hover:translate-x-1 transition-transform shrink-0">→</span>
               <span className="relative break-all sm:break-normal text-center">
-                KEDLAYASHREERAM@GMAIL.COM
-                <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-indigo-600 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out" />
+                kedlayashreeram@gmail.com
+                <span className="absolute left-0 -bottom-1 w-full h-[2px] bg-indigo-600 scale-x-0
+                  origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out" />
               </span>
             </a>
           </motion.div>
@@ -56,10 +66,12 @@ const Footer: React.FC = () => {
           className="flex justify-center gap-4 mb-12"
         >
           <a
-            href="https://drive.google.com/file/d/1EOxiAT6schRCKG8VIb1EifmimmJAO76Q/view?usp=sharing"
+            href="https://drive.google.com/file/d/12SAqnBeFk_K2H4iTyydF93jjSocDWMPm/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full
+              font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50
+              hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
             <FileText className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">Resume</span>
           </a>
@@ -67,7 +79,9 @@ const Footer: React.FC = () => {
             href="https://linkedin.com/in/shreeramkedlaya"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full
+              font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50
+              hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
             <FaLinkedin className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-indigo-600" /> <span className="hidden sm:inline">LinkedIn</span>
           </a>
@@ -75,30 +89,35 @@ const Footer: React.FC = () => {
             href="https://github.com/shreeramkedlaya"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+            className="inline-flex items-center justify-center p-3 sm:px-6 sm:py-2.5 rounded-full
+              font-medium text-sm bg-white border border-slate-200 text-slate-700 hover:bg-slate-50
+              hover:-translate-y-1 hover:shadow-md transition-all duration-300"
           >
             <FaGithub className="w-5 h-5 sm:w-4 sm:h-4 sm:mr-2 text-slate-800" /> <span className="hidden sm:inline">GitHub</span>
           </a>
         </motion.div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center text-xs text-slate-400 font-medium tracking-wide uppercase pt-8 border-t border-slate-200/60 mt-16">
+        <div className="flex flex-col md:flex-row justify-between items-center text-xs text-slate-400
+          font-medium tracking-wide uppercase pt-8 border-t border-slate-200/60 mt-16">
           <span>SHREERAM KEDLAYA © {new Date().getFullYear()}</span>
           <span className="mt-4 md:mt-0">ALL RIGHTS RESERVED</span>
         </div>
 
         <div className="mt-16 mb-4 flex flex-col items-center justify-center px-4">
-          <blockquote className="text-3xl md:text-5xl font-serif italic text-slate-800/80 tracking-tight leading-tight mb-4 text-center flex flex-wrap justify-center gap-[0.2em] cursor-default">
+          <blockquote className="text-3xl md:text-5xl font-serif italic text-slate-800/80 tracking-tight
+            leading-tight mb-4 text-center flex flex-wrap justify-center gap-[0.2em] cursor-default">
             {`"The best way to predict the future is to invent it."`.split(" ").map((word, i) => (
-              <motion.span 
-                key={i} 
-                whileHover={{ y: -5, color: "#4f46e5", textShadow: "0px 0px 15px rgba(79, 70, 229, 0.4)" }} 
+              <motion.span
+                key={i}
+                whileHover={{ y: -5, color: "#4f46e5", textShadow: "0px 0px 15px rgba(79, 70, 229, 0.4)" }}
                 className="inline-block transition-colors duration-300"
               >
                 {word}
               </motion.span>
             ))}
           </blockquote>
-          <cite className="text-base md:text-lg font-medium text-slate-500 not-italic cursor-default transition-colors hover:text-indigo-500">
+          <cite className="text-base md:text-lg font-medium text-slate-500 not-italic cursor-default
+          transition-colors hover:text-indigo-500">
             — Alan Kay
           </cite>
         </div>
