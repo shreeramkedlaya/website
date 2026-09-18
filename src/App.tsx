@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Lenis from 'lenis';
+import { Analytics } from '@vercel/analytics/react';
 import CustomCursor from './components/CustomCursor';
 import SplashScreen from './components/SplashScreen';
 import Navbar from './components/Navbar';
@@ -92,6 +93,7 @@ const App: React.FC = () => {
         <ExperienceEducation />
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 };
